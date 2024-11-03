@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Add smooth scrolling styles */
+.will-change-transform {
+  will-change: transform;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
